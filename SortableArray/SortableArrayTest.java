@@ -13,9 +13,16 @@ public void testSortIntegers() {
     SortableArray.sortIntegers(test);
     assertArrayEquals(result, test, "The Array was not sorted correctly");
 
-    
+}
+
+@Test
+public void testSortStrings() {
+    String [] test = {"Apple", "Dog", "Cat", "Pear"};
+    String [] result = {"Apple", "Cat", "Dog", "Pear"};
+    SortableArray.sortStrings(test);
+    assertArrayEquals(result, test, "The Array was not sorted Correctly");
 }
 
 
-    
+
 }
