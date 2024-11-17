@@ -8,8 +8,8 @@ public class SortableArrayTest {
 
     @Test
 public void testSortIntegers() {
-    int [] test = {5,3,8,1};
-    int [] result ={1,3,5,8};
+    int [] test = {13,10,6,1};
+    int [] result ={1,6,10,13};
     SortableArray.sortIntegers(test);
     assertArrayEquals(result, test, "The Array was not sorted correctly");
 
@@ -17,8 +17,8 @@ public void testSortIntegers() {
 
 @Test
 public void testSortStrings() {
-    String [] test = {"Apple", "Dog", "Cat", "Pear"};
-    String [] result = {"Apple", "Cat", "Dog", "Pear"};
+    String [] test = {"Mia", "India", "Canada", "String"};
+    String [] result = {"Canada", "India", "Mia", "String"};
     SortableArray.sortStrings(test);
     assertArrayEquals(result, test, "The Array was not sorted Correctly");
 }
