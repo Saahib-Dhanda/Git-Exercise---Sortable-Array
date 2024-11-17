@@ -6,5 +6,5 @@ This assignment demonstrates sorting functionality for arrays of integers and st
 - Sort an array of strings
 
 ## Setup Instructions 
-'''bash 
+ ```bash
 git clone 
