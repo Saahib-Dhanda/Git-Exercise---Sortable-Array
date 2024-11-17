@@ -11,13 +11,13 @@ public class SortableArray {
     }
 
     public static void main(String[] args) {
-        int[] numbers = {13, 10, 6, 1};
+        int[] numbers = {14, 20, 10, 2};
         sortIntegers(numbers);
         System.out.println("Sorted integers: " + Arrays.toString(numbers));
         
         System.out.println("\n");
 
-        String [] words = {"Mia", "India", "Canada", "String"};
+        String [] words = {"Dog", "Cat", "Mike", "India"};
         sortStrings(words);
         System.out.println("Sorted Words : " + Arrays.toString(words));
 
